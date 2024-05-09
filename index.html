@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Ameer <span>Hamza</span></div>
+            <div class="right">
+                <ul class="firstOrderList">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hambergerMenue">
+                <i class="fa-solid fa-bars menueOpen"></i>
+                <i class="fa-solid fa-xmark menueClose"></i>
+            </div>
+        </nav>
+
+        <ul class="secondOrderList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="mainSection">
+
+            <div class="leftSection">
+                <div>Hi, My name is <span>Ameer Hamza</span></div>
+                <div>And i am a passionate</div>
+                <span id="element"></span>
+                <div class="btnContainer">
+                    <button class="downloadBtn">Download CV</button>
+                    <button class="aboutBtn">About Me</button>
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="./imgBg.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="skillsSection">
+            <div class="skillsHeading">
+                <h4>My Skills</h4>
+            </div>
+
+            <div class="skillsContainer">
+                <div class="technicalSkills">
+                    <h2>Technical Skills</h2>
+
+                    <div class="skill">
+
+                        <div class="skillLogo"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+                        <div class="lineBox">
+                            <div class="html">
+                                <span class="percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+
+                        <div class="skillLogo"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+                        <div class="lineBox">
+                            <div class="css">
+                                <span class="percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+
+                        <div class="skillLogo"><i class="fa-brands fa-js"></i><span>JS</span></div>
+                        <div class="lineBox">
+                            <div class="javascript">
+                                <span class="percentage">70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+
+                        <div class="skillLogo"><i class="fa-brands fa-react"></i><span>React</span></div>
+                        <div class="lineBox">
+                            <div class="react">
+                                <span class="percentage">60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="skill">
+                        
+                        <div class="skillLogo"> <i class='bx bxl-tailwind-css'></i></div>
+                        <div class="lineBox">
+                            <div class="line line5"></div>
+                        </div>
+                    </div> -->
+
+                </div>
+
+                <div class="professionalSkills">
+                    <h2>Professionaal Skills</h2>
+
+                    <div class="mainWraperr">
+
+                        <div class="circle1">
+                            <div class="wrapper">
+                                <span class="percentageValue1">0%</span>
+                            </div>
+                        </div>
+                        <div class="footer1">Team Work</div>
+                        
+
+                        <div class="circle2">
+                            <div class="wrapper">
+                                <span class="percentageValue2">0%</span>
+                            </div>
+                        </div>
+                        <div class="footer2">Problem Solving</div>
+                        
+                        <div class="circle3">
+                            <div class="wrapper">
+                                <span class="percentageValue3">0%</span>
+                            </div>
+                        </div>
+                        <div class="footer3">Communication</div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="./app.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed('#element', {
+            strings: ['Front-End Web developer'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+
+
+</body>
+
+</html>
